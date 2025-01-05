@@ -12,9 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+load("@pjc_pip_deps//:requirements.bzl", "requirement")
+
 # Description:
 #   Contains libraries for openssl big num operations.
-load("@pcj_deps//:requirements.bzl", "requirement")
 load("@protobuf//:protobuf.bzl", "py_proto_library")
 load("@rules_python//python:defs.bzl", "py_library", "py_test")
 
